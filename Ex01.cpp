@@ -4,7 +4,7 @@
 //bool Div(double a, double b, double & res)
 //{
 //	if (b == 0 )
-//	{   cout << "Error: Division by 0\n";
+//	{   cout << "Error: Division by zero\n";
 //		return false;
 //	}
 //	cout<< a << "/" << b << "=";
