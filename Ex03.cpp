@@ -1,4 +1,4 @@
-//#include <iostream>
+//#inclue <iostream>
 //#include <exception>
 //using namespace std;
 //int main()
@@ -34,7 +34,7 @@
 //			cout << i << " block was allocated\n";
 //		}
 //	}
-//	catch(bad_alloc & ex)
+//	catch(const ad_alloc & ex)
 //	{
 //		for(int j = 0; j < i; ++j)
 //		{
