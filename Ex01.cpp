@@ -43,7 +43,7 @@
 //			cout << "Result = " << DivT(a,b) << endl;
 //		}
 //				
-//		catch (const char*  mes) // обробник виключення типу char*
+//		catch (const char*  mes) // обробник виключення типу const char*
 //		{
 //			cout << mes << endl;
 //			continue;
