@@ -2,7 +2,7 @@
 //using namespace std;
 //class Exp
 //{};
-//class ExpA : public Exp
+//class ExpDerived : public Exp
 //{};
 //
 //int main() {
@@ -61,7 +61,7 @@
 //				throw(v);
 //				break;
 //			case'O':
-//				throw ExpA();
+//				throw ExpDerived();
 //				break;
 //			case 'o':
 //				throw Exp();
@@ -101,7 +101,7 @@
 //		{
 //			cout << "Object of class Exp caught!" << endl;
 //		}
-//		catch(ExpA &)
+//		catch(ExpDerived &)
 //		{
 //			cout << "Object of class ExpA caught!" << endl;
 //		}
